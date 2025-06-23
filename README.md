@@ -1,2 +1,2 @@
 # atividades
-Exercícios feiros em linguagem Java Script
+Exercícios feitos em linguagem Java Script
