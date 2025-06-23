@@ -1,0 +1,11 @@
+const prompt = require('prompt-sync')();
+const PI = 3.14;
+const custoPorMetro= 100.00;
+let raio = Number(prompt('Digite o raio da lata (em metros): '));
+let altura = Number(prompt('Digite a altura da lata (em metros): '));
+let areaBase = 2 * PI * raio * raio;
+let areaLateral = 2 * PI * raio * altura;
+let areaTotal = areaBase + areaLateral;
+let custo = areaTotal * custoPorMetro;
+console.log(`Área total da lata: ${areaTotal.toFixed(4)} m^2`);
+console.log(`Custo total do alumínio: R$ ${custo.toFixed(2)}`);

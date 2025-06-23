@@ -1,0 +1,14 @@
+prompt = require('prompt-sync')();
+let nomePessoa1 = prompt('Digite o nome da primeira pessoa: ');
+let nomePessoa2 = prompt('Digite o nome da segunda pessoa: ');
+let nomePessoa3 = prompt('Digite o nome da terceira pessoa: ');
+let idadePessoa1 = Number(prompt('Digite a idade da primeira pessoa: '));
+let idadePessoa2 = Number(prompt('Digite a idade da segunda pessoa: '));
+let idadePessoa3 = Number(prompt('Digite a idade da terceira pessoa: '));
+let pesoPessoa1 = Number(prompt('Digite o peso da primeira pessoa: '));
+let pesoPessoa2 = Number(prompt('Digite o peso da segunda pessoa: '));
+let pesoPessoa3 = Number(prompt('Digite o peso da terceira pessoa: '));
+mediaIdade = (idadePessoa1 + idadePessoa2 + idadePessoa3) / 3;
+mediaPeso = (pesoPessoa1 + pesoPessoa2 + pesoPessoa3) / 3;
+console.log(`A média das idades é: ${mediaIdade.toFixed(2)}`);
+console.log(`A média dos pesos é: ${mediaPeso.toFixed(2)}`);
